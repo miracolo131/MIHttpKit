@@ -14,6 +14,7 @@
 		B05E31B81C4E335C00DBA689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B05E31B71C4E335C00DBA689 /* Assets.xcassets */; };
 		B05E31BB1C4E335C00DBA689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B05E31B91C4E335C00DBA689 /* LaunchScreen.storyboard */; };
 		B05E31C61C4E335C00DBA689 /* MIHttpKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B05E31C51C4E335C00DBA689 /* MIHttpKitTests.m */; };
+		B05E31D51C4E347600DBA689 /* MIHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B05E31D41C4E347600DBA689 /* MIHttpManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,9 @@
 		B05E31C11C4E335C00DBA689 /* MIHttpKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MIHttpKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B05E31C51C4E335C00DBA689 /* MIHttpKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MIHttpKitTests.m; sourceTree = "<group>"; };
 		B05E31C71C4E335C00DBA689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B05E31D21C4E346100DBA689 /* MIHttpKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIHttpKit.h; sourceTree = "<group>"; };
+		B05E31D31C4E347600DBA689 /* MIHttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIHttpManager.h; sourceTree = "<group>"; };
+		B05E31D41C4E347600DBA689 /* MIHttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIHttpManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		B05E31AA1C4E335C00DBA689 /* MIHttpKit */ = {
 			isa = PBXGroup;
 			children = (
+				B05E31D01C4E341F00DBA689 /* MIHttpKit */,
 				B05E31AE1C4E335C00DBA689 /* AppDelegate.h */,
 				B05E31AF1C4E335C00DBA689 /* AppDelegate.m */,
 				B05E31B11C4E335C00DBA689 /* ViewController.h */,
@@ -109,6 +114,16 @@
 				B05E31C71C4E335C00DBA689 /* Info.plist */,
 			);
 			path = MIHttpKitTests;
+			sourceTree = "<group>";
+		};
+		B05E31D01C4E341F00DBA689 /* MIHttpKit */ = {
+			isa = PBXGroup;
+			children = (
+				B05E31D21C4E346100DBA689 /* MIHttpKit.h */,
+				B05E31D31C4E347600DBA689 /* MIHttpManager.h */,
+				B05E31D41C4E347600DBA689 /* MIHttpManager.m */,
+			);
+			path = MIHttpKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +229,7 @@
 				B05E31B31C4E335C00DBA689 /* ViewController.m in Sources */,
 				B05E31B01C4E335C00DBA689 /* AppDelegate.m in Sources */,
 				B05E31AD1C4E335C00DBA689 /* main.m in Sources */,
+				B05E31D51C4E347600DBA689 /* MIHttpManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
